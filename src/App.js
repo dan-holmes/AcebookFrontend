@@ -1,4 +1,5 @@
 import PostList from './PostList.js'
+import Header from './Header.js'
 import './App.css';
 
 let post1 = {
@@ -20,6 +21,7 @@ let posts = [post1, post2]
 function App() {
   return (
     <div className="App">
+      <Header />
       <PostList posts={posts} />
     </div>
   );

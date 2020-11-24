@@ -37,6 +37,12 @@
   }
 }
 
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  color: darkblue;
+}
+
 .post {
   background-color: lightblue;
   border-style: solid;
