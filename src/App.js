@@ -13,7 +13,7 @@ let post1 = {
 
 let post2 = {
   id: 2,
-  message: 'Second post!',
+  message: 'Today is a great day.',
   username: 'ds.danielh',
   created_at: '13/11/2020 12:31:32'
 }
