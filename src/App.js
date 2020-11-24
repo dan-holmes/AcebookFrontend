@@ -18,7 +18,7 @@ let post2 = {
   created_at: '13/11/2020 12:31:32'
 }
 
-let posts = [post1, post2]
+let posts = [post2, post1]
 
 function App() {
   return (
