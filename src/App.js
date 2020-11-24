@@ -1,6 +1,7 @@
 import PostList from './PostList.js'
 import Header from './Header.js'
 import SigninForm from './SigninForm.js'
+import NewPostForm from './NewPostForm.js'
 import './App.css';
 
 let post1 = {
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <Header />
       <SigninForm />
+      <NewPostForm />
       <PostList posts={posts} />
     </div>
   );
